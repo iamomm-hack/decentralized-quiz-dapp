@@ -29,7 +29,8 @@
 
 ## 📸 Preview
 
-![QuizChain UI Screenshot](preview.png)
+![QuizChain UI Screenshot](<img width="1918" height="1027" alt="preview" src="https://github.com/user-attachments/assets/1ceca2dd-2ffd-4070-b59a-1f8c9c968f23" />
+)
 
 ---
 
