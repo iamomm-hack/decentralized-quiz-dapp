@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Global font and base style */
+body {
+  @apply text-gray-900 bg-white antialiased;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ✅ Remove glassmorphism from all key elements */
+.card,
+button,
+.badge,
+input,
+textarea,
+select {
+  backdrop-filter: none !important;
+  background-color: white !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: 1px solid transparent;
+}
+
+/* ✅ Remove transparent hover text or ghost text */
+.text-transparent,
+.bg-clip-text {
+  background-image: none !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  color: inherit !important;
+}
+
+/* ✅ Clean up blur/tint background classes */
+[class*="bg-white/"],
+[class*="backdrop-blur"] {
+  background-color: white !important;
+  backdrop-filter: none !important;
+}
+
+/* ✅ Disable gradients if needed */
+.bg-gradient-to-r,
+.bg-gradient-to-br,
+.bg-gradient-to-l,
+.bg-gradient-to-t,
+.bg-gradient-to-b,
+.from-blue-600,
+.to-purple-600 {
+  background-image: none !important;
+  background-color: #2563eb !important; /* Tailwind blue-600 */
+}
+
+/* ✅ Remove unnecessary transitions (optional) */
+.transition,
+.transition-all,
+.transition-colors {
+  transition: none !important;
+}
+
+/* ✅ Remove all default box shadows */
+* {
+  box-shadow: none !important;
+}
+
+/* ✅ NEW: Remove inline background-color from pasted content */
+span[style*="background-color"],
+strong[style*="background-color"],
+em[style*="background-color"],
+* [style*="background-color"] {
+  background-color: transparent !important;
+}
