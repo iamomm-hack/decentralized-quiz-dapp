@@ -15,12 +15,15 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
-| Frontend    | Backend / Logic  | Blockchain      |
-|-------------|------------------|-----------------|
-| Next.js     | Node.js (if any) | Solidity + Ethers.js |
-| TailwindCSS | Vercel (Hosting) | Ethereum (testnet) |
+- Next.js
+- Tailwind CSS
+- ShadCN UI
+- Solidity (Smart Contracts)
+- Ethers.js
+- Wagmi
+- RainbowKit
 
 ---
 
@@ -28,13 +31,41 @@
 
 ![QuizChain UI Screenshot](preview.png)
 
-> Replace with actual screenshot of your app's homepage
+---
+
+## 🛠️ Features
+✅ Connect Wallet
+
+✅ Create and Join Quizzes
+
+✅ Real-time Smart Contract Interaction
+
+✅ Clean UI with ShadCN and TailwindCSS
 
 ---
 
+🧪 How It Works
+Users connect via MetaMask
+
+Answer quiz questions fetched from the smart contract
+
+Answers are stored securely and can’t be altered
+
+Final scores are fetched from the blockchain
+
+## 🔐 MetaMask Instructions
+Install MetaMask browser extension
+
+Connect to the testnet (like Sepolia or Goerli)
+
+Get test ETH from a faucet to play quizzes
+
+---
+
+##
+
 ## ⚙️ Installation & Local Development
 
-```bash
 # Clone the repo
 git clone https://github.com/iamomm-hack/decentralized-quiz-dapp.git
 cd decentralized-quiz-dapp
@@ -46,3 +77,15 @@ npm install
 npm run dev
 
 Open http://localhost:3000 in your browser to view the app.
+
+---
+
+📦 Deployment
+Deployed via Vercel
+
+URL: https://dapp-quiz.vercel.app
+
+👨‍💻 Authors
+Made with ❤️ by @iamomm-hack
+
+
